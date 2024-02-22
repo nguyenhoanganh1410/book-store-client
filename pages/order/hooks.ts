@@ -11,7 +11,7 @@ import {
 import moment from 'moment';
 import { useCallback, useEffect, useState } from 'react';
 
-export const useOrderHooks = () => {
+const useOrderHooks = () => {
   const { profile } = useAuthState();
   const [orders, setOrders] = useState<IOrder[]>([]);
 
@@ -46,3 +46,5 @@ export const useOrderHooks = () => {
 
   return { orders };
 };
+
+export default useOrderHooks;

@@ -1,7 +1,7 @@
 import { Container, ErrorMessageForm, LoadingPage } from '@/components';
 import { Footer, NavBar } from '@/sections';
 import { NextPage } from 'next';
-import { useCheckoutHooks } from './hooks';
+import useCheckoutHooks from './hooks';
 import { Formik } from 'formik';
 import CartItem from '../cart/components/CartItem';
 import * as Yup from 'yup';

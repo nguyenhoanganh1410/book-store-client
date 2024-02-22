@@ -18,7 +18,7 @@ import { FormikProps } from 'formik';
 import { useRouter } from 'next/router';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
-export const useCheckoutHooks = () => {
+const useCheckoutHooks = () => {
   const router = useRouter();
 
   const [cart, setCart] = useState<ICart[]>([]);
@@ -142,3 +142,5 @@ export const useCheckoutHooks = () => {
     cartDetails,
   };
 };
+
+export default useCheckoutHooks;

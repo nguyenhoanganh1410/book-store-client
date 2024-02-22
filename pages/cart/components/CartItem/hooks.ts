@@ -4,7 +4,7 @@ import { toastError } from '@/utils';
 import { ICartProduceDetail, IProduct } from '@/utils/interfaces';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
-export const useCardItem = (product: ICartProduceDetail) => {
+const useCardItem = (product: ICartProduceDetail) => {
   const [currentQuality, setCurrentQuality] = useState(product.quality);
   const [loading, setLoading] = useState(false);
 
@@ -54,3 +54,5 @@ export const useCardItem = (product: ICartProduceDetail) => {
     handleClickPluss,
   };
 };
+
+export default useCardItem;

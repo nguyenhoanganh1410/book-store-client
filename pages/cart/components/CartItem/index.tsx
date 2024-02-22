@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { ICartProduceDetail } from '@/utils/interfaces';
-import { useCardItem } from './hooks';
+import  useCardItem from './hooks';
 import { LoadingPage } from '@/components';
 import Link from 'next/link';
 

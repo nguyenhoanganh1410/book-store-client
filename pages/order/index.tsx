@@ -2,7 +2,7 @@ import { Container, LoadingPage } from '@/components';
 import withAuth from '@/components/AuthHOC';
 import { Footer, NavBar } from '@/sections';
 import { NextPage } from 'next';
-import { useOrderHooks } from './hooks';
+import useOrderHooks from './hooks';
 import { orderStatus } from '@/constants';
 
 const people = [

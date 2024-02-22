@@ -28,7 +28,7 @@ import {
   onSnapshot,
 } from 'firebase/firestore';
 
-export const useCart = () => {
+const useCart = () => {
   const [cart, setCart] = useState<ICart[]>([]);
   const [cartDetails, setCartDetails] = useState<ICartProduceDetail[]>([]);
   const { profile } = useAuthState();
@@ -101,3 +101,4 @@ export const useCart = () => {
 
   return { cart, profile, getTotalPrice, cartDetails };
 };
+ export default useCart;

@@ -8,7 +8,7 @@ import ProductBlock from '@/sections/ProductBlock';
 import { PRODUCTS_CHILD } from '../home';
 import Link from 'next/link';
 import { ROUTERS } from '@/constants';
-import { useCart } from './hooks';
+import useCart from './hooks';
 import CartItem from './components/CartItem';
 // ico_emptycart.svg
 const CartPage: NextPage = () => {
