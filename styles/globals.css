@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-white;
+  }
+
+  img {
+    @apply inline-block
+  }
+}
+
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../public/fonts/Inter-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../public/fonts/Inter-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../public/fonts/Inter-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../public/fonts/Inter-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../public/fonts/Poppins-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../public/fonts/Poppins-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../public/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../public/fonts/Poppins-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../public/fonts/DMSans-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../public/fonts/DMSans-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../public/fonts/DMSans-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../public/fonts/DMSans-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../public/fonts/Raleway-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../public/fonts/Raleway-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../public/fonts/Raleway-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../public/fonts/Raleway-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* PlayfairDisplay */
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../public/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../public/fonts/PlayfairDisplay-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../public/fonts/PlayfairDisplay-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../public/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* NunitoSans */
+@font-face {
+  font-family: "NunitoSans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../public/fonts/NunitoSans-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NunitoSans";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../public/fonts/NunitoSans-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NunitoSans";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../public/fonts/NunitoSans-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NunitoSans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../public/fonts/NunitoSans-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Caveat */
+@font-face {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../public/fonts/Caveat-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@layer components {
+  .PaddingContainer {
+    @apply px-5 py-8 sm:px-10 sm:py-14 lg:px-20 lg:py-20;
+  }
+
+  .HeaderText {
+    @apply text-[25px] sm:text-3xl lg:text-4xl xl:text-[45px];
+  }
+
+  .SubHeaderText {
+    @apply text-xl sm:text-2xl xl:text-4xl 3xl:text-5xl;
+  }
+
+  .TitleText {
+    @apply text-sm sm:text-base lg:text-xl xl:text-1.5xl;
+  }
+
+  .SubTitleText {
+    @apply text-xs sm:text-sm lg:text-base xl:text-lg 3xl:text-xl;
+  }
+
+  .PaddingSection {
+    @apply px-5 py-5 sm:px-10 sm:py-14 lg:px-20 lg:py-36
+  }
+  .NormalText {
+    @apply text-xs sm:text-base lg:text-xl xl:text-[22px];
+  }
+  .SubSectionText {
+    @apply text-xl sm:text-2xl xl:text-[26px];
+  }
+  .SectionText {
+    @apply text-xl sm:text-2xl xl:text-[32px]
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
