@@ -57,7 +57,7 @@ export const userBannerHook = () => {
   const [categories, setCategories] = useState<ICategory[]>([]);
 
   useEffect(() => {
-    setCategories(DATA_CATEGORIES);
+   // setCategories(DATA_CATEGORIES);
   }, []);
 
   return {
